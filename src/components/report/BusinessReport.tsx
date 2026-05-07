@@ -375,7 +375,7 @@ export function BusinessReport({ report, onRestart }: Props) {
             fontSize: 'clamp(1.3rem, 3.5vw, 1.6rem)', fontWeight: 700, margin: '0 0 12px', color: '#f0efeb',
             fontFamily: 'Space Grotesk, sans-serif', letterSpacing: '-0.03em',
           }}>
-            Want Help Implementing This?
+            Get Your Free AI Operations Audit
           </h3>
           <p style={{ fontSize: 'clamp(0.9rem, 2vw, 1rem)', color: '#c8c8c8', margin: '0 0 28px', maxWidth: 480, marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.65, fontWeight: 400 }}>
             Book a free 30-minute AI Operations Audit with Epiphany Dynamics. We will review your report together and map the fastest path forward.
@@ -391,9 +391,23 @@ export function BusinessReport({ report, onRestart }: Props) {
               border: 'none', borderRadius: 'var(--radius-full)', textDecoration: 'none', cursor: 'pointer',
             }}
           >
-            Book Your Free AI Audit
+            Get Your Free AI Operations Audit
           </a>
           <p style={{ fontSize: '0.85rem', color: '#a0a0a0', marginTop: 14 }}>No obligation. No sales pitch.</p>
+          <div style={{ marginTop: 20 }}>
+            <a
+              href="https://epiphanydynamics.ai/pricing"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex', alignItems: 'center', gap: 6,
+                color: '#a0a0a0', fontSize: '0.88rem', fontWeight: 500,
+                textDecoration: 'underline', textUnderlineOffset: 3,
+              }}
+            >
+              See pricing and plans →
+            </a>
+          </div>
         </motion.div>
 
         {/* ── RETAKE & FOOTER ──────────────────────────────── */}
