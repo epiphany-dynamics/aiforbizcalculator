@@ -6,6 +6,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://ai4bizcalculator.online',
+  redirects: {
+    '/sitemap.xml': '/sitemap-index.xml',
+  },
   adapter: vercel(),
   integrations: [
     react(),
