@@ -1,0 +1,34 @@
+---
+interface Props {
+  links?: { title: string; url: string; site: string }[];
+}
+
+const { links } = Astro.props;
+
+if (!links || links.length === 0) return;
+
+const siteLabels: Record<string, string> = {
+  ed: 'Epiphany Dynamics',
+  fss: 'Field Service Stack',
+  calc: 'AI for Biz Calculator',
+  help: 'Epiphany Learn',
+};
+---
+
+<section class="border-t border-border mt-12 pt-8 max-w-[65ch] mx-auto">
+  <h2 class="text-lg font-semibold mb-4">From our network</h2>
+  <ul class="space-y-2">
+    {links.map((link) => (
+      <li>
+        <a 
+          href={link.url} 
+          class="text-accent hover:underline"
+          rel="noopener"
+        >
+          {link.title}
+        </a>
+        <span class="text-muted text-sm ml-2">({siteLabels[link.site] || link.site})</span>
+      </li>
+    ))}
+  </ul>
+</section>

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import NetworkLinks from '../../components/NetworkLinks.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -91,6 +92,8 @@ const schemas = [articleSchema, breadcrumbSchema];
     <div class="prose mx-auto">
       <Content />
     </div>
+
+    <NetworkLinks links={entry.data.networkLinks} />
   </article>
   <Footer />
 </Base>
