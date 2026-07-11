@@ -3,12 +3,14 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  schema?: object | object[];
 }
 
 const {
   title,
   description = 'Free AI automation calculator for business owners. Answer a few questions and get a personalized report showing exactly which automations and AI agents will save you the most time and money.',
   ogImage = '/images/og-default.png',
+  schema,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -121,6 +123,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       }
     ]
   })} />
+
+    {schema && (Array.isArray(schema) ? schema : [schema]).map((s) => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
 </head>
 <body>
   <slot />

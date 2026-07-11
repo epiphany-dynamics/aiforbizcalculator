@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Base title="Blog - AI for Biz Calculator" description="AI automation ROI insights, calculator walkthroughs, and practical guides for small business owners looking to save time and money with AI.">
+  <Header />
+  <section class="py-10 md:py-14 max-w-4xl mx-auto px-4">
+    <div class="mb-8">
+      <h1 class="mb-4">Blog</h1>
+      <p class="text-muted text-base md:text-lg leading-relaxed">
+        Practical guides on AI automation ROI, calculator walkthroughs, and tips for small business owners.
+      </p>
+    </div>
+
+    {allPosts.length > 0 ? (
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        {allPosts.map((post) => (
+          <a href={`/blog/${post.id}/`} class="block p-6 border border-border rounded-lg hover:border-border-strong transition-colors">
+            <h2 class="text-xl font-semibold mb-2">{post.data.title}</h2>
+            <p class="text-muted text-sm mb-3">{post.data.description}</p>
+            <time class="text-xs text-muted" datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="text-muted">Articles coming soon.</p>
+    )}
+  </section>
+  <Footer />
+</Base>

@@ -1,0 +1,96 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const formattedDate = entry.data.pubDate.toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+
+const formattedUpdated = entry.data.updated
+  ? entry.data.updated.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+
+const pageURL = Astro.url.href;
+
+const authorSchema = {
+  '@type': 'Person',
+  '@id': 'https://www.wikidata.org/wiki/Q139572015',
+  name: 'Patrick Gibbs',
+  sameAs: [
+    'https://www.wikidata.org/wiki/Q139572015',
+    'https://github.com/patrickg21212',
+    'https://www.linkedin.com/in/patrick-gibbs-839b7b237',
+  ],
+};
+
+const publisher = {
+  '@type': 'Organization',
+  '@id': 'https://www.wikidata.org/wiki/Q139569923',
+  name: 'Epiphany Dynamics',
+  url: 'https://epiphanydynamics.ai',
+  sameAs: [
+    'https://www.wikidata.org/wiki/Q139569923',
+    'https://github.com/epiphany-dynamics',
+    'https://www.linkedin.com/company/epiphanydynamics',
+    'https://www.crunchbase.com/organization/epiphany-dynamics',
+    'https://epiphanydynamics.ai',
+  ],
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description: entry.data.description,
+  author: authorSchema,
+  publisher,
+  datePublished: entry.data.pubDate.toISOString().split('T')[0],
+  dateModified: (entry.data.updated ?? entry.data.pubDate).toISOString().split('T')[0],
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageURL },
+  ...(entry.data.image ? { image: new URL(entry.data.image, Astro.site).href } : {}),
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://ai4bizcalculator.online' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://ai4bizcalculator.online/blog/' },
+    { '@type': 'ListItem', position: 3, name: entry.data.title, item: pageURL },
+  ],
+};
+
+const schemas = [articleSchema, breadcrumbSchema];
+---
+
+<Base title={`${entry.data.seoTitle} - AI for Biz Calculator`} description={entry.data.description} schema={schemas}>
+  <Header />
+  <article class="py-8 md:py-12 max-w-[65ch] mx-auto px-4">
+    <header class="mb-8 md:mb-12 border-b border-border pb-8">
+      <h1 class="mb-4">{entry.data.title}</h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-muted">
+        <time datetime={entry.data.pubDate.toISOString()}>{formattedDate}</time>
+        <span>by Patrick Gibbs</span>
+        {formattedUpdated && <span>Updated {formattedUpdated}</span>}
+      </div>
+    </header>
+
+    <div class="prose mx-auto">
+      <Content />
+    </div>
+  </article>
+  <Footer />
+</Base>
