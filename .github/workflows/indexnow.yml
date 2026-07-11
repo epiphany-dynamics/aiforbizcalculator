@@ -3,6 +3,9 @@ name: IndexNow ping (Bing + Yandex)
 on:
   push:
     branches: [main]
+    paths:
+      - 'src/content/**'
+      - 'src/pages/**'
 
 jobs:
   ping-indexnow:
