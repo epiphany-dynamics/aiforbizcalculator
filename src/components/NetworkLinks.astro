@@ -12,13 +12,14 @@ const siteLabels: Record<string, string> = {
   fss: 'Field Service Stack',
   calc: 'AI for Biz Calculator',
   help: 'Epiphany Learn',
+  hype: 'HypeBench',
 };
 ---
 
 <section class="border-t border-border mt-12 pt-8 max-w-[65ch] mx-auto">
   <h2 class="text-lg font-semibold mb-4">From our network</h2>
   <ul class="space-y-2">
-    {links.map((link) => (
+    {links.slice(0, 4).map((link) => (
       <li>
         <a 
           href={link.url} 

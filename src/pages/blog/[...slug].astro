@@ -6,7 +6,7 @@ import Footer from '../../components/Footer.astro';
 import NetworkLinks from '../../components/NetworkLinks.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
   return posts.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
