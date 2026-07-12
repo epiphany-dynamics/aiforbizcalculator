@@ -15,8 +15,8 @@ const blog = defineCollection({
     draft: z.boolean().default(false),
     networkLinks: z.array(z.object({
       title: z.string(),
-      url: z.string(),
-      site: z.string(),
+      url: z.string().url(),
+      site: z.enum(['ed', 'fss', 'calc', 'help', 'hype']),
     })).max(4).optional(),
   }),
 });

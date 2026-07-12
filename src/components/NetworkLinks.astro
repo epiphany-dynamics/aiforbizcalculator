@@ -1,13 +1,13 @@
 ---
 interface Props {
-  links?: { title: string; url: string; site: string }[];
+  links?: { title: string; url: string; site: 'ed' | 'fss' | 'calc' | 'help' | 'hype' }[];
 }
 
 const { links } = Astro.props;
 
 if (!links || links.length === 0) return;
 
-const siteLabels: Record<string, string> = {
+const siteLabels: Record<NonNullable<Props['links']>[number]['site'], string> = {
   ed: 'Epiphany Dynamics',
   fss: 'Field Service Stack',
   calc: 'AI for Biz Calculator',
@@ -28,7 +28,7 @@ const siteLabels: Record<string, string> = {
         >
           {link.title}
         </a>
-        <span class="text-muted text-sm ml-2">({siteLabels[link.site] || link.site})</span>
+        <span class="text-muted text-sm ml-2">({siteLabels[link.site]})</span>
       </li>
     ))}
   </ul>
