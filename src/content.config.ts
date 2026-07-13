@@ -12,6 +12,8 @@ const blog = defineCollection({
     updated: z.coerce.date().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
+    imageWidth: z.number().int().positive().optional(),
+    imageHeight: z.number().int().positive().optional(),
     draft: z.boolean().default(false),
     networkLinks: z.array(z.object({
       title: z.string(),

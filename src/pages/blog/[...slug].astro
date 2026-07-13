@@ -77,7 +77,14 @@ const breadcrumbSchema = {
 const schemas = [articleSchema, breadcrumbSchema];
 ---
 
-<Base title={`${entry.data.seoTitle} - AI for Biz Calculator`} description={entry.data.description} schema={schemas}>
+<Base
+  title={`${entry.data.seoTitle} - AI for Biz Calculator`}
+  description={entry.data.description}
+  ogImage={entry.data.image}
+  ogImageWidth={entry.data.imageWidth}
+  ogImageHeight={entry.data.imageHeight}
+  schema={schemas}
+>
   <Header />
   <article class="py-8 md:py-12 max-w-[65ch] mx-auto px-4">
     <header class="mb-8 md:mb-12 border-b border-border pb-8">
@@ -87,6 +94,18 @@ const schemas = [articleSchema, breadcrumbSchema];
         <span>by Patrick Gibbs</span>
         {formattedUpdated && <span>Updated {formattedUpdated}</span>}
       </div>
+      {entry.data.image && (
+        <figure class="mt-6">
+          <img
+            src={entry.data.image}
+            alt={entry.data.imageAlt ?? entry.data.title}
+            width={entry.data.imageWidth}
+            height={entry.data.imageHeight}
+            class="w-full rounded-xl"
+            loading="eager"
+          />
+        </figure>
+      )}
     </header>
 
     <div class="prose mx-auto">

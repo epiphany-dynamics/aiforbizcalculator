@@ -5,6 +5,10 @@ seoTitle: "AI Automation ROI Calculator: Formulas and Worked Example"
 focusKeyword: AI automation ROI calculator
 pubDate: "2026-07-14"
 draft: false
+image: /images/blog/ai-automation-roi-calculator.webp
+imageAlt: "Small business owner reviewing an AI automation ROI dashboard"
+imageWidth: 1536
+imageHeight: 1024
 networkLinks: []
 ---
 

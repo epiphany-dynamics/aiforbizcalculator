@@ -5,6 +5,10 @@ seoTitle: "AI Workflow Automation ROI: Calculate the Payback"
 focusKeyword: AI workflow automation
 pubDate: "2026-07-17"
 draft: false
+image: /images/blog/ai-workflow-automation-roi.webp
+imageAlt: "Operations team reviewing an AI workflow automation plan"
+imageWidth: 1536
+imageHeight: 1024
 networkLinks: []
 ---
 
