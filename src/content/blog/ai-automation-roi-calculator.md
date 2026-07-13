@@ -3,8 +3,8 @@ title: How to use an AI automation ROI calculator (with a worked example)
 description: Learn what an AI automation ROI calculator estimates, how to check the result against a real implementation quote, and how to calculate savings, payback, and first-year ROI.
 seoTitle: "AI Automation ROI Calculator: Formulas and Worked Example"
 focusKeyword: AI automation ROI calculator
-pubDate: "2026-07-12"
-draft: true
+pubDate: "2026-07-14"
+draft: false
 networkLinks: []
 ---
 
