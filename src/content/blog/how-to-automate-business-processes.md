@@ -9,7 +9,16 @@ imageAlt: Laptop on a desk displaying charts and graphs for business process ana
 imageWidth: 1536
 imageHeight: 1024
 draft: false
-networkLinks: []
+networkLinks:
+- title: 'How to Audit Your Business for Automation (5-Step Framework)'
+  url: https://epiphanydynamics.ai/blog/how-to-audit-your-business-for-automation/
+  site: ed
+- title: How to Automate Business Processes Without Just Adding AI
+  url: https://epiphany.help/articles/how-to-automate-business-processes
+  site: help
+- title: 'How to Automate Business Processes: Run a Dispatch-to-Invoice Audit First'
+  url: https://fieldservicestack.com/guides/how-to-automate-business-processes/
+  site: fss
 tags:
 - automation strategy
 - process automation
@@ -17,7 +26,7 @@ tags:
 - operations
 - prioritization
 - decision framework
-updated: '2026-07-15'
+updated: '2026-07-16'
 ---
 
 **To automate business processes, score each candidate before you calculate ROI. Rate frequency, labor value, failure cost, and implementation difficulty on a 0 to 5 scale, weight them, and rank the totals. Only the top-scoring processes earn a full ROI model. This filter kills weak ideas cheaply, before you spend budget proving them.**
