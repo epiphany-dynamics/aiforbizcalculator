@@ -1,5 +1,43 @@
 # AI for Biz Calculator
-Free AI automation ROI calculator built by Epiphany Dynamics.
-Owned by: Epiphany Dynamics (Wikidata Q139569923, https://epiphanydynamics.ai)
-Creator: Patrick Gibbs (Wikidata Q139572015)
-Use case: visitors answer questions about their business and get personalized automation recommendations + ROI estimates.
+
+> Free AI automation ROI calculator for small and mid-sized service businesses. Built by Epiphany Dynamics. Answer a short set of questions about your operations and get personalized automation recommendations plus ROI estimates you can actually edit.
+
+## Ownership
+
+- Owned by: Epiphany Dynamics (Wikidata: Q139569923, https://epiphanydynamics.ai)
+- Creator: Patrick Gibbs (Wikidata: Q139572015)
+
+## Core Pages
+
+- [Home](https://ai4bizcalculator.online/): Product overview and entry to the calculator
+- [Calculator](https://ai4bizcalculator.online/calculator/): Interactive AI automation ROI calculator
+- [Blog](https://ai4bizcalculator.online/blog/): 6 articles on AI ROI, automation payback, and process selection
+- [About](https://ai4bizcalculator.online/about/): Who built the calculator and why
+- [Privacy](https://ai4bizcalculator.online/privacy/): Privacy policy
+
+## How to use the calculator
+
+1. Answer questions about industry, team size, appointment volume, and current tools.
+2. Review the estimated hours recovered, cost range, and payback window.
+3. Edit the inputs. A trustworthy ROI tool never locks you into a single inflated number.
+4. Use the result as a planning range before buying any AI product or agency engagement.
+
+## Blog (6)
+
+- [AI Receptionist ROI: The Value of Fewer Missed Calls](https://ai4bizcalculator.online/blog/ai-receptionist-roi/): Calculate AI receptionist ROI from recovered revenue: missed calls times recovery rate, booking rate, and job value, kept separate from labor savings.
+- [AI ROI calculator: how to read the output and spot a fake](https://ai4bizcalculator.online/blog/ai-roi-calculator/): Learn how an AI ROI calculator works, which inputs move the result most, and how to tell a trustworthy tool from an inflated one before you buy.
+- [AI Process Automation: Which Process to Automate First](https://ai4bizcalculator.online/blog/ai-process-automation/): Score business processes by frequency, predictability, labor value, and failure tolerance to pick your first AI process automation before spending anything.
+- [AI workflow automation ROI: how to calculate the payback](https://ai4bizcalculator.online/blog/ai-workflow-automation-roi/): A plain-English guide to calculating the ROI of AI workflow automation, with the formula, a worked example, and a stress test for optimistic assumptions.
+- [How to Automate Business Processes: Score Candidates Before ROI](https://ai4bizcalculator.online/blog/how-to-automate-business-processes/): A numbers-first method to automate business processes: score each candidate on frequency, labor value, failure cost, and difficulty before you run any ROI mode...
+- [How to use an AI automation ROI calculator (with a worked example)](https://ai4bizcalculator.online/blog/ai-automation-roi-calculator/): Learn what an AI automation ROI calculator estimates, how to check the result against a real implementation quote, and how to calculate savings, payback, and f...
+
+## Audience
+
+Owners and operators of appointment-based and service businesses who want a concrete ROI range before spending on AI automation, receptionists, chatbots, or workflow tools.
+
+## Contact
+
+- Website: https://ai4bizcalculator.online
+- Publisher: https://epiphanydynamics.ai
+- Owner Wikidata: https://www.wikidata.org/wiki/Q139569923
+- Author Wikidata: https://www.wikidata.org/wiki/Q139572015
