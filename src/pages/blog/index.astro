@@ -21,12 +21,30 @@ const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
     {allPosts.length > 0 ? (
       <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
         {allPosts.map((post) => (
-          <a href={`/blog/${post.id}/`} class="block p-6 border border-border rounded-lg hover:border-border-strong transition-colors">
-            <h2 class="text-xl font-semibold mb-2">{post.data.title}</h2>
-            <p class="text-muted text-sm mb-3">{post.data.description}</p>
-            <time class="text-xs text-muted" datetime={post.data.pubDate.toISOString()}>
-              {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-            </time>
+          <a
+            href={`/blog/${post.id}/`}
+            class="group block overflow-hidden border border-border rounded-lg hover:border-border-strong transition-colors"
+          >
+            {post.data.image ? (
+              <div class="aspect-[16/10] w-full overflow-hidden" style="background: var(--color-bg-subtle, #e8e6e1);">
+                <img
+                  src={post.data.image}
+                  alt={post.data.imageAlt || post.data.title}
+                  width={post.data.imageWidth ?? 1536}
+                  height={post.data.imageHeight ?? 1024}
+                  loading="lazy"
+                  decoding="async"
+                  class="h-full w-full object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                />
+              </div>
+            ) : null}
+            <div class="p-5">
+              <h2 class="text-xl font-semibold mb-2">{post.data.title}</h2>
+              <p class="text-muted text-sm mb-3">{post.data.description}</p>
+              <time class="text-xs text-muted" datetime={post.data.pubDate.toISOString()}>
+                {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+            </div>
           </a>
         ))}
       </div>
