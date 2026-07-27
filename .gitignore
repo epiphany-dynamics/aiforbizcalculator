@@ -6,3 +6,6 @@ dist/
 .env.local
 *.log
 .vercel
+
+# generated at build time by scripts/gen-llms-txt.mjs (npm prebuild)
+public/llms.txt
