@@ -77,6 +77,16 @@ Annual labor savings = 8 x 52 x 33 = 13,728 dollars.
 
 The practice receives a 7,500 dollar implementation quote. Software costs 140 dollars a month, and it budgets another 60 dollars a month for maintenance and small adjustments.
 
+If the bottleneck is still fuzzy, get numbers cfo will is the clearer lens.
+
+The risk section lands harder after automation cuts administrative overhead.
+
+[How AI Workflow Automation Cuts Administrative Overhead](https://epiphanydynamics.ai/blog/ai-workflow-automation-reduce-administrative-overhead-costs/)
+
+
+[How to Measure AI Automation ROI: Get Numbers Your CFO Will Trust (2026)](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/)
+
+
 Ongoing monthly cost = 140 plus 60 = 200 dollars.
 
 Ongoing annual cost = 200 x 12 = 2,400 dollars.

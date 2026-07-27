@@ -80,6 +80,16 @@ The manager earns 22 dollars an hour. Payroll and employment overhead bring the 
 
 Annual labor savings = 8 x 52 x 28 = 11,648 dollars.
 
+When attention fades, numbers cfo will trust is the pattern that still holds.
+
+A second angle on the same constraint is roi calculator actually works.
+
+[How to Build an Automation ROI Calculator That Actually Works](https://epiphanydynamics.ai/blog/automation-roi-calculator/)
+
+
+[How to Measure AI Automation ROI: Get Numbers Your CFO Will Trust (2026)](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/)
+
+
 The company receives a 6,000 dollar implementation quote. Software costs 120 dollars a month, and it budgets another 80 dollars a month for maintenance and small changes.
 
 Ongoing monthly cost = 120 plus 80 = 200 dollars.

@@ -73,6 +73,16 @@ Run any calculator through this checklist before you trust its output:
 
 Why is a guaranteed-payback tool a red flag? Because ROI is a function of variables the calculator cannot control. It does not know your close rate, your slow season, or how fast your team adopts the tool. A guarantee is a sales device wearing a math costume. The most credible tools do the opposite: they under-promise, hand you the levers, and let the number be smaller but real.
 
+A shorter path through the fog is cfo will trust 2026.
+
+When attention fades, roi calculator actually works is the pattern that still holds.
+
+[How to Build an Automation ROI Calculator That Actually Works](https://epiphanydynamics.ai/blog/automation-roi-calculator/)
+
+
+[How to Measure AI Automation ROI: Get Numbers Your CFO Will Trust (2026)](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/)
+
+
 If your bigger question is which task to automate before you even model ROI, our guide on [scoring automation candidates before ROI](/blog/how-to-automate-business-processes/) helps you pick a target worth calculating.
 
 ## How to sanity-check the number against your own labor cost

@@ -84,6 +84,16 @@ The math for invoice data entry: (5 times 0.30) plus (3 times 0.30) plus (4 time
 
 Notice what the score corrects. The board deck feels high-stakes because a partner sees it and a senior analyst builds it. But it runs four times a year and depends on judgment and formatting that resist automation, so its frequency and buildability scores drag it down. Invoice entry is boring, which is exactly why it never gets championed in a meeting, yet it clears the 3.5 threshold comfortably. Again, these numbers are illustrative. Your own scores are the only ones that matter. The same ranking question gets worked from a different angle in [AI Process Automation: Which Process to Automate First](/blog/ai-process-automation/).
 
+When attention fades, business hire better faster is the pattern that still holds.
+
+The same tradeoff shows up when operators dig into hvac business stop losing.
+
+[How to Automate Your HVAC Business: Stop Losing Calls and Jobs (2026)](https://epiphanydynamics.ai/blog/how-to-automate-your-hvac-business/)
+
+
+[How to Automate Recruitment for Small Business: Hire Better, Faster (2026)](https://epiphanydynamics.ai/blog/how-to-automate-recruitment-small-business/)
+
+
 ## Turning a top score into an ROI decision
 
 **The score ranks candidates; it does not size the money. Once a process clears your threshold, build a real model: hours saved times loaded wage, minus software and build cost, across twelve months. A high score with thin dollar savings still fails. Rank first, then prove the return in dollars.**
