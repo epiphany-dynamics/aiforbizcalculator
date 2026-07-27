@@ -89,7 +89,7 @@ Here is a clean illustrative example (numbers are hypothetical, chosen to show t
 6. Labor-only ROI: (($11,648 - $3,600) / $3,600) x 100 = about 224 percent.
 7. Labor-only payback: $3,600 / (about $970 per month) = under 4 months.
 
-That labor-only figure is your floor. It is the part you can defend to a skeptical accountant. If the calculator's headline is 224 percent, the numbers agree and you can trust it. If the calculator screams 900 percent, the extra 676 points are coming from a revenue assumption you should interrogate hard before believing.
+That labor-only figure is your floor. It is the part you can defend to a skeptical accountant. If the calculator's headline is 224 percent, the numbers agree and you can trust it. If the calculator screams 900 percent, the extra 676 points are coming from a revenue assumption you should interrogate hard before believing. To test that revenue line, [Cost per lead calculator: the missed-lead adjustment](/blog/cost-per-lead-calculator/) starts from the inquiries you already paid for and never answered.
 
 This is the whole discipline: trust the labor math because you control it, and treat every revenue claim as a question, not an answer. Our breakdown of [AI workflow automation ROI and how to calculate the payback](/blog/ai-workflow-automation-roi/) goes deeper on separating the certain savings from the speculative ones.
 

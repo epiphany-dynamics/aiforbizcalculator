@@ -86,7 +86,7 @@ If line 1 alone clears the tool cost with room to spare, you have a decision tha
 
 **Skip it, or delay it, when your missed-call volume is genuinely low, your average job value is small, or your callers strongly expect a human. The formula collapses when missed calls times job value is a small number, because there is little revenue to recover. Automation cannot manufacture demand that the phone is not already carrying.**
 
-Run the formula before you buy, not after. A boutique with 8 missed calls a month and a 45 dollar average sale is looking at roughly 63 dollars of recoverable revenue at a 40 percent recovery and 35 percent booking rate. No tool subscription survives that. The same is true for businesses where the first call is a long consultative conversation that a bot would fumble, or where regulation requires a licensed human on the line.
+Run the formula before you buy, not after. A boutique with 8 missed calls a month and a 45 dollar average sale is looking at roughly 63 dollars of recoverable revenue at a 40 percent recovery and 35 percent booking rate. No tool subscription survives that. The same is true for businesses where the first call is a long consultative conversation that a bot would fumble, or where regulation requires a licensed human on the line. Where that volume arrives as chat rather than calls, [AI Chatbot Pricing: The Four Models and What Each Costs](/blog/ai-chatbot-pricing/) covers the billing units instead.
 
 There is also a quality risk worth naming. A clumsy AI that mishandles callers can cost you bookings you would otherwise have kept through voicemail follow-up. Recovery rate is not automatically positive. Pilot it, listen to real call recordings, and measure before you assume the tool is additive.
 

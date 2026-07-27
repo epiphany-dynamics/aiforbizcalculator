@@ -82,7 +82,7 @@ Run the session in a fixed order so the process stays honest:
 
 The math for invoice data entry: (5 times 0.30) plus (3 times 0.30) plus (4 times 0.20) plus (4 times 0.20), which is 1.50 plus 0.90 plus 0.80 plus 0.80, for a total of 4.00. The board deck lands at 0.30 plus 1.20 plus 0.60 plus 0.20, or 2.30.
 
-Notice what the score corrects. The board deck feels high-stakes because a partner sees it and a senior analyst builds it. But it runs four times a year and depends on judgment and formatting that resist automation, so its frequency and buildability scores drag it down. Invoice entry is boring, which is exactly why it never gets championed in a meeting, yet it clears the 3.5 threshold comfortably. Again, these numbers are illustrative. Your own scores are the only ones that matter.
+Notice what the score corrects. The board deck feels high-stakes because a partner sees it and a senior analyst builds it. But it runs four times a year and depends on judgment and formatting that resist automation, so its frequency and buildability scores drag it down. Invoice entry is boring, which is exactly why it never gets championed in a meeting, yet it clears the 3.5 threshold comfortably. Again, these numbers are illustrative. Your own scores are the only ones that matter. The same ranking question gets worked from a different angle in [AI Process Automation: Which Process to Automate First](/blog/ai-process-automation/).
 
 ## Turning a top score into an ROI decision
 

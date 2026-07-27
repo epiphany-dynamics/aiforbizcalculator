@@ -68,7 +68,7 @@ Use this ordered framework to find your likely winner:
 4. **Run the per-model math.** Per seat = S x seat price. Per conversation = T x chat price. Per resolution = (T x R) x resolution price. Per credit = T x messages-per-chat x credit price.
 5. **Pick the lowest, then re-run at 2x volume.** The cheapest model at today's volume is often not the cheapest at double. Choosing for where you will be in a year avoids a painful re-platform.
 
-A rough rule from the illustrative math above: under about 150 tickets a month with one or two agents, per seat usually wins. Between roughly 150 and 600 tickets, per resolution and per conversation trade places depending on your resolution rate. Above that, per resolution generally pulls ahead because it never charges for volume the bot absorbs. Treat those thresholds as starting points to test against your own numbers, not fixed lines.
+A rough rule from the illustrative math above: under about 150 tickets a month with one or two agents, per seat usually wins. Between roughly 150 and 600 tickets, per resolution and per conversation trade places depending on your resolution rate. Above that, per resolution generally pulls ahead because it never charges for volume the bot absorbs. Treat those thresholds as starting points to test against your own numbers, not fixed lines. Compare that against the human alternative in [How Much Do Answering Services Charge? Pricing and Break-Even](/blog/how-much-do-answering-services-charge/), where the units are per minute and per call.
 
 ## The costs a pricing page hides
 
