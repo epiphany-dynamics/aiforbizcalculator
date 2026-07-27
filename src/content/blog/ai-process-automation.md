@@ -71,16 +71,6 @@ A total of 4 to 9 means leave it alone for now. A total of 10 to 14 means a mayb
 
 **Consider two illustrative candidates at a small services firm: appointment reminder texts and quarterly contract review. Reminders score high on every factor and total 18. Contract review is valuable but rare, judgment heavy, and high stakes, totaling 8. Reminders win the first slot decisively, and it is not close.**
 
-The risk section lands harder after automation small businesses complete.
-
-A shorter path through the fog is automation consultant small business.
-
-[Business Process Automation Consultant for Small Business](https://epiphanydynamics.ai/blog/business-process-automation-consultant-small-business/)
-
-
-[AI Automation for Small Businesses: The Complete 2026 Guide](https://epiphanydynamics.ai/blog/ai-automation-small-business-guide-2026/)
-
-
 Here is how the two candidates score under the rubric. All numbers are illustrative.
 
 | Factor | Appointment reminders | Contract review |

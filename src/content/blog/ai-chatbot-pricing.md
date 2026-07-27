@@ -74,16 +74,6 @@ A rough rule from the illustrative math above: under about 150 tickets a month w
 
 **The headline number is rarely the full cost. Setup, integrations, overage rates, and human fallback all sit outside the per-unit price and can add 20 to 50 percent in the first year, illustratively. Ask for these before signing, because they are where a cheap-looking plan turns expensive.**
 
-That is the moment does chatbot cost pricing stops being theory.
-
-If the bottleneck is still fuzzy, automation cost accounting firms is the clearer lens.
-
-[AI Automation Cost for Accounting Firms: 2026 Pricing Guide](https://epiphanydynamics.ai/blog/ai-automation-cost-for-accounting-firms/)
-
-
-[How Much Does an AI Chatbot Cost? Pricing Breakdown for Small Business Owners](https://epiphanydynamics.ai/blog/how-much-does-ai-chatbot-cost/)
-
-
 Run this checklist against any quote:
 
 - **Onboarding or setup fee.** One-time build cost for training the bot on your content.

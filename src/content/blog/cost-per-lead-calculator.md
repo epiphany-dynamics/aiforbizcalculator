@@ -82,16 +82,6 @@ The after column assumes an automated answering layer captures 80 percent of the
 
 Notice what happens. The headline CPL goes up, from $25.00 to $26.16, because you added $220 of cost against the same 190 inquiries. The true CPL goes down, from $28.79 to $26.86, because you are now buying 185 usable leads instead of 165. A calculator that only knows the headline number will tell you the automation made things worse.
 
-What changes next depends less on tools and more on lead qualification contractors works.
-
-Before you lock a stack, sit with pricing drives cost small.
-
-[AI Automation Pricing Guide: What Drives Cost for Small Businesses](https://epiphanydynamics.ai/blog/ai-automation-cost-pricing-guide/)
-
-
-[AI Lead Qualification for Contractors: What Works in 2026](https://epiphanydynamics.ai/blog/ai-lead-qualification-for-contractors/)
-
-
 ### The alternative price of those 20 leads
 
 Buying 20 additional leads through more ad spend, at the true CPL of $28.79, costs about $576 per month. Recovering the same 20 through automation costs $220 in this example. That comparison, not a vague efficiency claim, is the case for spending the money. If your recovery rate is half of what is assumed here, the two options land close together and the decision gets genuinely debatable.

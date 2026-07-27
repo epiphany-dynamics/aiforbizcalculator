@@ -62,16 +62,6 @@ Compare on the full stack, not the monthly fee. Two tools priced at fifty and tw
 
 The tell is how much human effort the tool needs to keep running. Low sticker plus high manual effort is the trap. When you read any tool's ROI claim, this is also how you catch an inflated one: the guide on [how to read an AI ROI output and spot a fake](/blog/ai-roi-calculator/) covers the same denominator games from the returns side.
 
-Treat agency employee 2026 financial as the adjacent case study.
-
-From there, the practical next cut is business plans pricing you.
-
-[Make.com Cost for Small Business: Plans, Pricing, and What You Actually Need](https://epiphanydynamics.ai/blog/make-com-cost-small-business/)
-
-
-[Cost of Hiring an AI Agency vs. an Employee: The 2026 Financial Comparison](https://epiphanydynamics.ai/blog/cost-of-hiring-ai-agency-vs-employee/)
-
-
 ## Build your own cost buildup: an illustrative example
 
 **Build the cost side by summing your one-time implementation, then annualizing the three recurring buckets, then adding the hidden training and adoption hours at your loaded labor rate. The formula is: total year-one cost equals implementation plus twelve months of software, maintenance, and integration, plus training hours times labor rate.**
