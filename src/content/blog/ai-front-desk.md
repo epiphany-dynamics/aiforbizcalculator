@@ -16,7 +16,16 @@ imageAlt: "AI front desk math: call volume, booking rate, payback: ai front desk
 imageWidth: 1536
 imageHeight: 1024
 draft: false
-networkLinks: []
+networkLinks:
+  - site: fss
+    title: What an AI Front Desk Does With a Field Service Call
+    url: https://fieldservicestack.com/guides/ai-front-desk/
+  - site: help
+    title: "AI Front Desk: A Safe First Setup for Non-Technical Owners"
+    url: https://epiphany.help/articles/ai-front-desk
+  - site: hype
+    title: "AI Front Desk: Which Models Actually Take the Call"
+    url: https://hypebench.buzz/blog/ai-front-desk/
 ---
 
 **An AI front desk pays for itself when the revenue it recovers from answered calls exceeds its monthly cost. The math needs four inputs: missed calls per month, your booking rate, average job value, and the all-in platform fee. Multiply the first three, compare to the fourth, and the payback window falls out.**
