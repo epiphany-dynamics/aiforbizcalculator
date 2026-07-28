@@ -84,9 +84,9 @@ Notice what happens. The headline CPL goes up, from $25.00 to $26.16, because yo
 
 ### The alternative price of those 20 leads
 
-Buying 20 additional leads through more ad spend, at the true CPL of $28.79, costs about $576 per month. Recovering the same 20 through automation costs $220 in this example. That comparison, not a vague efficiency claim, is the case for spending the money. If your recovery rate is half of what is assumed here, the two options land close together and the decision gets genuinely debatable.
+Buying 20 additional leads through more ad spend, at the true CPL of $28.79, costs about $576 per month. Recovering the same 20 through automation costs $220 in this example. That comparison, not a vague efficiency claim, is the case for spending the money. If your recovery rate is half of what is assumed here, the two options land close together and the decision gets genuinely debatable. Capturing 20 more inquiries only helps if they qualify, and [AI Lead Qualification for Contractors](https://epiphanydynamics.ai/blog/ai-lead-qualification-for-contractors/) covers that filter.
 
-Run your own version in the [AI automation ROI calculator](/calculator/) with your real spend, inquiry count, and miss rate before committing to a monthly tool cost.
+Run your own version in the [AI automation ROI calculator](/calculator/) with your real spend, inquiry count, and miss rate before committing to a monthly tool cost. That $220 automation line is where [AI Automation Pricing Guide: what drives cost](https://epiphanydynamics.ai/blog/ai-automation-cost-pricing-guide/) is useful.
 
 ## When the missed-lead adjustment does not apply
 

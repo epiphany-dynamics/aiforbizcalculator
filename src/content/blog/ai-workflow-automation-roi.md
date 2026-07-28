@@ -32,7 +32,7 @@ It is also different from traditional robotic process automation. Older RPA tool
 
 Not every workflow is worth automating. The ones that return money soon share a few traits.
 
-- **High frequency.** A workflow that runs 200 times a week has more savings to capture than one that runs twice.
+- **High frequency.** A workflow that runs 200 times a week has more savings to capture than one that runs twice. That 200-times-a-week case is where [How AI Workflow Automation Cuts Admin Overhead](https://epiphanydynamics.ai/blog/ai-workflow-automation-reduce-administrative-overhead-costs/) finds the hours.
 - **Mostly repetitive, partly exception.** If 80 percent of cases follow the same path and 20 percent need a human, the automation can own the 80 and flag the rest.
 - **Clear cost when it goes wrong late.** A missed follow-up that loses a customer costs more than a slightly imperfect first draft someone reviews.
 - **Measurable labor behind it.** You can name the people, the hours, and what they earn. Vague "everyone spends some time on this" makes the ROI unknowable.
@@ -95,7 +95,7 @@ First-year net return = 13,728 minus 9,900 = 3,828 dollars.
 
 First-year ROI = 3,828 divided by 9,900 = about 38.7 percent.
 
-The arithmetic works. The assumptions still need scrutiny. Eight hours saved per week is the number most likely to make or break this case. If the automation only recovers five hours, the math changes a lot.
+The arithmetic works. The assumptions still need scrutiny. Eight hours saved per week is the number most likely to make or break this case. If the automation only recovers five hours, the math changes a lot. In the bookkeeper example at eight hours saved, [How to Measure AI Automation ROI](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/) is the reporting companion.
 
 ## Stress-test the optimistic version
 

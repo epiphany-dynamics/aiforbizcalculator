@@ -94,7 +94,7 @@ Continuing the illustrative Riverbend numbers:
 - AI fixed cost (illustrative): $299 platform subscription plus $100 amortized implementation = $399
 - AI variable cost per call (illustrative): about $0.45 in usage and telephony at 2.4 minutes
 
-Break-even = ($399 - $111.50) / ($4.81 - $0.45) = $287.50 / $4.36 = **about 66 calls per month**
+Break-even = ($399 - $111.50) / ($4.81 - $0.45) = $287.50 / $4.36 = **about 66 calls per month**. At that 66-call crossover, [AI Phone Answering Service for Small Business](https://epiphanydynamics.ai/blog/ai-phone-answering-service-for-small-business/) lists what to compare next.
 
 Three things move that number hard. Longer average calls push break-even down, because per-minute billing punishes length. A cheaper AI implementation pushes it down too: at a $199 subscription with a $600 build amortized over a year, break-even lands near 30 calls. And a live service with a generous included allowance pushes it up, because more of its cost is fixed.
 
@@ -104,7 +104,7 @@ Run your own version instead of borrowing these assumptions. The [AI automation 
 
 **Break-even only compares cost. It says nothing about whether either option answers the call well. If your calls involve nuanced triage, distressed customers, or high-value bookings, a slightly more expensive option that converts better wins on revenue even when it loses on price.**
 
-Two situations where you should ignore the crossover point. First, very low volume: under roughly 40 or 50 calls a month, both options are cheap in absolute dollars and the decision should turn on quality and coverage hours, not a $30 difference. Second, complex call types: if a mishandled call costs you a five-figure job, the correct comparison is revenue captured per call, not cost per call.
+Two situations where you should ignore the crossover point. First, very low volume: under roughly 40 or 50 calls a month, both options are cheap in absolute dollars and the decision should turn on quality and coverage hours, not a $30 difference. Second, complex call types: if a mishandled call costs you a five-figure job, the correct comparison is revenue captured per call, not cost per call. After quality wins the argument, [How to Switch From Answering Service to AI Receptionist](https://epiphanydynamics.ai/blog/how-to-switch-from-answering-service-to-ai-receptionist/) maps the handoff.
 
 Pricing structure is also not the same as value. Answering the call at all is usually worth more than either fee, which is the argument laid out in [the value of fewer missed calls](/blog/ai-receptionist-roi/). And if your inbound mix leans toward text and web chat rather than voice, the per-conversation structures in [AI chatbot pricing](/blog/ai-chatbot-pricing/) are the relevant comparison instead.
 

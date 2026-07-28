@@ -50,7 +50,7 @@ Once you have a specific project in mind, gather five inputs:
 4. The monthly software and maintenance cost
 5. A conservative adjustment for time savings that never materialize
 
-Loaded hourly cost is more than wage. It can include payroll tax, benefits, and other employment overhead. If you do not have a reliable loaded rate, ask whoever handles payroll or bookkeeping. Guessing high or low can distort the result.
+Loaded hourly cost is more than wage. It can include payroll tax, benefits, and other employment overhead. If you do not have a reliable loaded rate, ask whoever handles payroll or bookkeeping. Guessing high or low can distort the result. Those five budget inputs become a reusable sheet in [How to Build an Automation ROI Calculator](https://epiphanydynamics.ai/blog/automation-roi-calculator/).
 
 Be equally careful with hours saved. If a task takes ten hours now but someone will still spend two hours reviewing exceptions, the saving is eight hours, not ten.
 
@@ -90,7 +90,7 @@ Net annual benefit = 11,648 minus 2,400 = 9,248 dollars.
 
 Monthly net benefit = 9,248 divided by 12 = 770.67 dollars.
 
-Payback period = 6,000 divided by 770.67 = about 7.8 months.
+Payback period = 6,000 divided by 770.67 = about 7.8 months. Payback near eight months still needs a CFO frame; [How to Measure AI Automation ROI](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/) packages those numbers.
 
 For first-year ROI, include both the build and the running cost:
 

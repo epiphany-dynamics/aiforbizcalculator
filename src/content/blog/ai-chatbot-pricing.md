@@ -21,7 +21,7 @@ networkLinks: []
 
 **AI chatbot pricing follows four models: per seat, per conversation, per resolution, and per credit. For most small businesses handling under 500 support tickets a month, expect roughly $50 to $500 monthly. Per-conversation billing usually wins at low volume, while per-resolution pricing tends to scale cheapest once you cross a few hundred tickets.**
 
-Most pricing pages show you a monthly number without telling you which billing model produced it. That is the part that decides whether a chatbot costs you $79 or $790 at the same real workload. Below are the four models, what each costs at small-business volumes, and a break-even framework for picking the cheapest one at your ticket count. All dollar figures here are clearly labeled illustrative examples, not vendor quotes.
+Most pricing pages show you a monthly number without telling you which billing model produced it. That is the part that decides whether a chatbot costs you $79 or $790 at the same real workload. Under 500 tickets, that $50 to $500 band is what [How Much Does an AI Chatbot Cost?](https://epiphanydynamics.ai/blog/how-much-does-ai-chatbot-cost/) breaks open by plan type. Below are the four models, what each costs at small-business volumes, and a break-even framework for picking the cheapest one at your ticket count. All dollar figures here are clearly labeled illustrative examples, not vendor quotes.
 
 ## The four ways AI chatbots are priced
 

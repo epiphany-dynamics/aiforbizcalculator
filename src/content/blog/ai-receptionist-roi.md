@@ -65,7 +65,7 @@ Walking the math step by step with those illustrative inputs:
 3. Recovered revenue: 15.75 × 420 dollars = 6,615 dollars
 4. Net after a 300 dollar tool cost: 6,315 dollars per month
 
-Now stress-test it. Cut the recovery rate to 40 percent and the booking rate to 25 percent, and recovered revenue drops to about 3,780 dollars. Still a strong return, but a very different one. This is why you run the pessimistic case, not just the optimistic one. A tool that pays for itself even under your worst-case inputs is a safe yes. One that only works if every input lands high is a gamble.
+Now stress-test it. Cut the recovery rate to 40 percent and the booking rate to 25 percent, and recovered revenue drops to about 3,780 dollars. Still a strong return, but a very different one. This is why you run the pessimistic case, not just the optimistic one. A tool that pays for itself even under your worst-case inputs is a safe yes. One that only works if every input lands high is a gamble. Trades face the same recovery curve, and [AI Receptionist for Plumbers: setup and ROI](https://epiphanydynamics.ai/blog/ai-receptionist-for-plumbers-setup-cost-roi-2026/) walks that math for plumbing shops.
 
 For a broader framework on turning inputs like these into a payback period, the walkthrough on [AI workflow automation ROI and how to calculate the payback](/blog/ai-workflow-automation-roi/) covers the cost side in more depth.
 
@@ -80,7 +80,7 @@ The clean approach is a two-line summary:
 - Line 1, revenue recovery: recovered bookings from calls you used to miss.
 - Line 2, labor savings: front-desk hours no longer spent on routine call handling, valued at loaded hourly cost.
 
-If line 1 alone clears the tool cost with room to spare, you have a decision that does not depend on soft labor estimates. If you want to score which processes deserve automation before you even reach the ROI stage, the guide on [how to automate business processes and score candidates](/blog/how-to-automate-business-processes/) helps you rank them first.
+If line 1 alone clears the tool cost with room to spare, you have a decision that does not depend on soft labor estimates. When you need a head-to-head on staffing, [AI Receptionist vs Human Receptionist ROI](https://epiphanydynamics.ai/blog/ai-receptionist-vs-human-receptionist-roi/) separates those two ledgers cleanly. If you want to score which processes deserve automation before you even reach the ROI stage, the guide on [how to automate business processes and score candidates](/blog/how-to-automate-business-processes/) helps you rank them first.
 
 ## When an AI receptionist is not worth it
 

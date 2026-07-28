@@ -20,7 +20,7 @@ networkLinks: []
 
 **Automate the process with the highest combined score across four factors: how often it runs (frequency), how rule based it is (predictability), how much paid labor it consumes (labor value), and how safely it can fail (failure tolerance). Score each candidate one to five, add the four numbers, and start with the highest total.**
 
-Most owners pick their first automation backwards. They start with a tool they saw in an ad, then hunt for something to point it at. That is how you end up paying a monthly fee to automate a task that runs twice a month. The smarter move is to rank the work first, then buy the tool the winning task actually needs.
+Most owners pick their first automation backwards. They start with a tool they saw in an ad, then hunt for something to point it at. That is how you end up paying a monthly fee to automate a task that runs twice a month. The smarter move is to rank the work first, then buy the tool the winning task actually needs. Ranking before tool shopping is the same rule in [AI Automation for Small Businesses: the Complete Guide](https://epiphanydynamics.ai/blog/ai-automation-small-business-guide-2026/).
 
 ## What "automate first" actually means
 
@@ -95,7 +95,7 @@ The scoring model assumes the process is stable and worth keeping. It cannot tel
 
 **Once you have a winner, convert its frequency and labor value into a monthly dollar saving, then compare that against the tool and setup cost. If the saving pays back setup within about three months, build it. Use the calculator to run that math instead of guessing at the payback period.**
 
-Ranking tells you what to automate. The payback math tells you whether it is worth paying for this quarter. Take your top scored process, plug in how many times it runs and what the labor costs, and let the [AI automation ROI calculator](/calculator/) estimate monthly savings and payback. If you want the assumptions behind those numbers spelled out with a full example, the guide on [using an AI automation ROI calculator](/blog/ai-automation-roi-calculator/) walks through one end to end.
+Ranking tells you what to automate. The payback math tells you whether it is worth paying for this quarter. Take your top scored process, plug in how many times it runs and what the labor costs, and let the [AI automation ROI calculator](/calculator/) estimate monthly savings and payback. If you want the assumptions behind those numbers spelled out with a full example, the guide on [using an AI automation ROI calculator](/blog/ai-automation-roi-calculator/) walks through one end to end. If the winner still needs an outside build, [Business Process Automation Consultant for Small Business](https://epiphanydynamics.ai/blog/business-process-automation-consultant-small-business/) explains that hire.
 
 Score your candidates this week, pick the single highest total, and run it through the calculator before you spend a dollar on tools.
 

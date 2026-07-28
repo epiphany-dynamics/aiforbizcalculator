@@ -34,9 +34,11 @@ And the companion metric owners actually care about, payback period:
 
 `Payback (months) = Annual cost / Monthly benefit`
 
+Net benefit divided by cost is the core; [How to Measure AI Automation ROI](https://epiphanydynamics.ai/blog/how-to-measure-ai-automation-roi/) shows the CFO-ready version.
+
 Annual benefit almost always breaks down into two buckets: hours saved and revenue captured. A calculator that hides which bucket is driving the total is doing you no favors. You want to see the labor line and the revenue line separately, because they carry very different levels of certainty. Saved hours are close to guaranteed once a task is automated. Captured revenue depends on demand you may not actually have.
 
-If you want to see this math laid out step by step with real inputs, our companion piece on [how to use an AI automation ROI calculator with a worked example](/blog/ai-automation-roi-calculator/) walks through one from top to bottom.
+If you want to see this math laid out step by step with real inputs, our companion piece on [how to use an AI automation ROI calculator with a worked example](/blog/ai-automation-roi-calculator/) walks through one from top to bottom. If you want a working sheet rather than a black box, [How to Build an Automation ROI Calculator](https://epiphanydynamics.ai/blog/automation-roi-calculator/) shows the model.
 
 ## Which inputs move the result the most
 
