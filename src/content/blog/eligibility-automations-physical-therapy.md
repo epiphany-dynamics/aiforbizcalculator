@@ -16,7 +16,19 @@ imageAlt: "Eligibility automation ROI for physical therapy clinics: eligibility 
 imageWidth: 1536
 imageHeight: 1024
 draft: false
-networkLinks: []
+networkLinks:
+  - site: fss
+    title: Physical Therapy Eligibility Automations, Applied to Dispatch
+    url: https://fieldservicestack.com/guides/eligibility-automations-physical-therapy/
+  - site: help
+    title: "Eligibility automations for physical therapy: a beginner path"
+    url: https://epiphany.help/articles/eligibility-automations-physical-therapy
+  - site: hype
+    title: Physical Therapy Eligibility Automation vs the Hype Board
+    url: https://hypebench.buzz/blog/eligibility-automations-physical-therapy/
+  - site: ed
+    title: Best AI Tools for Physical Therapy Practices in 2026
+    url: https://epiphanydynamics.ai/blog/best-ai-tools-for-physical-therapy/
 ---
 
 **Eligibility automation pays for itself when the monthly cost of manual verification plus eligibility related denials, multiplied by the share the software actually removes, exceeds the subscription fee. Most physical therapy clinics can model this with five inputs: checks per month, minutes per check, loaded wage, denial write off cost, and vendor pricing.**
