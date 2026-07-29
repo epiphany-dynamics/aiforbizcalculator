@@ -16,7 +16,19 @@ imageAlt: "Automated appointment reminders: the break-even math: automated appoi
 imageWidth: 1536
 imageHeight: 1024
 draft: false
-networkLinks: []
+networkLinks:
+  - site: fss
+    title: Automated Appointment Reminders That Protect Your Dispatch Board
+    url: https://fieldservicestack.com/guides/automated-appointment-reminders/
+  - site: help
+    title: "Automated appointment reminders: a safe first setup"
+    url: https://epiphany.help/articles/automated-appointment-reminders
+  - site: hype
+    title: "Automated appointment reminders: where model hype stops mattering"
+    url: https://hypebench.buzz/blog/automated-appointment-reminders/
+  - site: ed
+    title: "Automated Appointment Reminders Free: What Actually Works in 2026"
+    url: https://epiphanydynamics.ai/blog/automated-appointment-reminders-free/
 ---
 
 **Automated appointment reminders pay for themselves when the cost of the messages is smaller than the margin on the appointments they save. At roughly one cent per text and three texts per booking, a $60 appointment slot only needs about one prevented no-show per month to cover a typical small platform fee.**
