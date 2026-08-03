@@ -35,7 +35,7 @@ updated: '2026-07-16'
 
 **Most automation projects fail the intake stage, not the build stage. Teams pick the loudest process, not the highest-value one. A scoring matrix forces every candidate through the same four questions, so a gut-feel favorite and a quiet back-office task get ranked on identical evidence. You compare before you commit.**
 
-Most teams jump straight to "let's automate invoicing" or "let's build a chatbot" because someone complained loudly last week. The complaint tells you where the pain is felt, not where the return is largest. A scoring pass separates the two. It costs you an afternoon and a spreadsheet, and it stops you from sinking a build budget into a process that was never worth touching. Treat the score as a filter, not a verdict: it decides which two or three candidates deserve a real financial model, and nothing more.
+Most teams jump straight to "let's automate invoicing" or "let's build a chatbot" because someone complained loudly last week. The complaint tells you where the pain is felt, not where the return is largest. A scoring pass separates the two. It costs you an afternoon and a spreadsheet, and it stops you from sinking a build budget into a process that was never worth touching. Treat the score as a filter, not a verdict: it decides which two or three candidates deserve a real financial model, and nothing more. Hiring is a common high-scoring candidate for this filter, and [How to Automate Recruitment for Small Business: Hire Better, Faster (2026)](https://epiphanydynamics.ai/blog/how-to-automate-recruitment-small-business/) applies it here.
 
 ## The four-factor scoring matrix
 
@@ -82,7 +82,7 @@ Run the session in a fixed order so the process stays honest:
 
 The math for invoice data entry: (5 times 0.30) plus (3 times 0.30) plus (4 times 0.20) plus (4 times 0.20), which is 1.50 plus 0.90 plus 0.80 plus 0.80, for a total of 4.00. The board deck lands at 0.30 plus 1.20 plus 0.60 plus 0.20, or 2.30.
 
-Notice what the score corrects. The board deck feels high-stakes because a partner sees it and a senior analyst builds it. But it runs four times a year and depends on judgment and formatting that resist automation, so its frequency and buildability scores drag it down. Invoice entry is boring, which is exactly why it never gets championed in a meeting, yet it clears the 3.5 threshold comfortably. Again, these numbers are illustrative. Your own scores are the only ones that matter. The same ranking question gets worked from a different angle in [AI Process Automation: Which Process to Automate First](/blog/ai-process-automation/).
+Notice what the score corrects. The board deck feels high-stakes because a partner sees it and a senior analyst builds it. But it runs four times a year and depends on judgment and formatting that resist automation, so its frequency and buildability scores drag it down. Invoice entry is boring, which is exactly why it never gets championed in a meeting, yet it clears the 3.5 threshold comfortably. Again, these numbers are illustrative. Your own scores are the only ones that matter. The same ranking question gets worked from a different angle in [AI Process Automation: Which Process to Automate First](/blog/ai-process-automation/). Field service dispatch often scores well too, and [How to Automate Your HVAC Business: Stop Losing Calls and Jobs (2026)](https://epiphanydynamics.ai/blog/how-to-automate-your-hvac-business/) runs the same framework.
 
 ## Turning a top score into an ROI decision
 

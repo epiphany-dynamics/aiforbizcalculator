@@ -46,7 +46,7 @@ Here is what each input is, where it actually lives, and the mistake that quietl
 | Average job value | V | Invoices over the last 90 days | Using revenue instead of gross profit later in the model |
 | All-in monthly cost | C | Quote plus usage, integrations, and internal time | Ignoring per-minute overage and setup amortization |
 
-Two of these come from your phone bill, two come from your books. If you cannot produce them, that is the first project, not the AI purchase. The same input discipline shows up in [our guide to reading an ROI calculator output](/blog/ai-roi-calculator/), because a clean model with invented inputs is still fiction.
+Two of these come from your phone bill, two come from your books. If you cannot produce them, that is the first project, not the AI purchase. The same input discipline shows up in [our guide to reading an ROI calculator output](/blog/ai-roi-calculator/), because a clean model with invented inputs is still fiction. For the setup steps and full pricing anatomy behind these numbers, [AI Front Desk Cost: Pricing, Setup, and How It Works](https://epiphanydynamics.ai/blog/ai-front-desk-cost-how-it-works/) breaks down each component.
 
 ## How to count missed calls without fooling yourself
 
@@ -67,7 +67,7 @@ If you already track acquisition cost, the same adjustment applies on the lead s
 
 ### After-hours versus during-hours misses
 
-Split M into after-hours and during-hours. After-hours misses usually have a higher recovery ceiling because there is no human alternative. During-hours misses often mean a staffing or routing problem that a $400 monthly subscription is patching rather than solving.
+Split M into after-hours and during-hours. After-hours misses usually have a higher recovery ceiling because there is no human alternative. During-hours misses often mean a staffing or routing problem that a $400 monthly subscription is patching rather than solving. Trade businesses face the same math, and [AI Receptionist for Plumbers: Setup, Cost, and Real ROI in 2026](https://epiphanydynamics.ai/blog/ai-receptionist-for-plumbers-setup-cost-roi-2026/) runs it for a plumbing crew.
 
 ## Booking rate is where most quotes inflate the case
 

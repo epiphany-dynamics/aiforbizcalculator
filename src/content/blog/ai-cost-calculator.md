@@ -44,7 +44,7 @@ The first bucket is the one you see. The other four are where a cheap-looking to
 
 ### Usage that scales past the base plan
 
-Many AI tools price a base tier, then charge per message, per minute, per API call, or per contact above it. A plan that looks like ninety dollars a month at demo volume can double once real traffic hits it. Always ask for the overage rate and model your busy-month volume, not your quiet-month volume.
+Many AI tools price a base tier, then charge per message, per minute, per API call, or per contact above it. A plan that looks like ninety dollars a month at demo volume can double once real traffic hits it. Always ask for the overage rate and model your busy-month volume, not your quiet-month volume. Automation platform fees are a common line here, and [Make.com Cost for Small Business: Plans, Pricing, and What You Actually Need](https://epiphanydynamics.ai/blog/make-com-cost-small-business/) prices that specific bucket.
 
 ### Data work nobody wants to own
 
