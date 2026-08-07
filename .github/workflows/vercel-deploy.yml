@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  # EPI-891: Gravity can re-trigger production deploy without an empty commit
+  # when a push lands on main but Actions never starts.
+  workflow_dispatch:
 
 permissions:
   contents: read
