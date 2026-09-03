@@ -34,6 +34,14 @@ if (fs.existsSync(blogDir)) {
   }
 }
 
+const latestBlogLastmod = [...blogLastmod.values()].reduce(
+  (latest, date) => (!latest || date > latest ? date : latest),
+  null,
+);
+for (const pathname of ['/', '/calculator/', '/blog/', '/about/', '/privacy/']) {
+  if (latestBlogLastmod) blogLastmod.set(pathname, latestBlogLastmod);
+}
+
 export default defineConfig({
   site: 'https://ai4bizcalculator.online',
   redirects: {
