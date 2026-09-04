@@ -6,6 +6,7 @@ interface Props {
   ogImageWidth?: number;
   ogImageHeight?: number;
   schema?: object | object[];
+  noindex?: boolean;
 }
 
 const {
@@ -15,7 +16,10 @@ const {
   ogImageWidth = 1536,
   ogImageHeight = 1024,
   schema,
+  noindex = false,
 } = Astro.props;
+
+const robotsContent = noindex ? 'noindex, nofollow' : 'index, follow';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -34,7 +38,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <!-- SEO -->
   <title>{title}</title>
   <meta name="description" content={description} />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content={robotsContent} />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />

@@ -16,6 +16,7 @@ imageAlt: "AI front desk math: call volume, booking rate, payback: ai front desk
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks:
   - site: fss
     title: What an AI Front Desk Does With a Field Service Call

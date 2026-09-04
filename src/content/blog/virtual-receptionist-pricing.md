@@ -16,6 +16,7 @@ imageAlt: "Virtual receptionist pricing: minutes, calls, and overages: virtual r
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks: []
 ---
 

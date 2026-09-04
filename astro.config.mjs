@@ -13,24 +13,42 @@ import tailwindcss from '@tailwindcss/vite';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const blogDir = path.join(__dirname, 'src/content/blog');
 
-function readFrontmatterDate(filePath) {
+function readFrontmatter(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const match = raw.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return null;
-  const frontmatter = match[1];
+  return match[1];
+}
+
+function readFrontmatterDate(filePath) {
+  const frontmatter = readFrontmatter(filePath);
+  if (!frontmatter) return null;
   const updatedMatch = frontmatter.match(/^updated:\s*["']?([\d-]{10})["']?/m);
   const pubDateMatch = frontmatter.match(/^pubDate:\s*["']?([\d-]{10})["']?/m);
   const dateStr = (updatedMatch ?? pubDateMatch)?.[1];
   return dateStr ? new Date(dateStr) : null;
 }
 
+function isNoindexFrontmatter(filePath) {
+  const frontmatter = readFrontmatter(filePath);
+  if (!frontmatter) return false;
+  return /^noindex:\s*true\b/m.test(frontmatter);
+}
+
 const blogLastmod = new Map();
+const noindexPaths = new Set();
 if (fs.existsSync(blogDir)) {
   for (const file of fs.readdirSync(blogDir)) {
     if (!file.endsWith('.md')) continue;
     const slug = file.replace(/\.md$/, '');
-    const date = readFrontmatterDate(path.join(blogDir, file));
-    if (date) blogLastmod.set(`/blog/${slug}/`, date);
+    const filePath = path.join(blogDir, file);
+    const pathname = `/blog/${slug}/`;
+    if (isNoindexFrontmatter(filePath)) {
+      noindexPaths.add(pathname);
+      continue;
+    }
+    const date = readFrontmatterDate(filePath);
+    if (date) blogLastmod.set(pathname, date);
   }
 }
 
@@ -52,6 +70,10 @@ export default defineConfig({
     mdx(),
     react(),
     sitemap({
+      filter(page) {
+        const pathname = new URL(page).pathname;
+        return !noindexPaths.has(pathname);
+      },
       serialize(item) {
         const url = new URL(item.url);
         const lastmod = blogLastmod.get(url.pathname);

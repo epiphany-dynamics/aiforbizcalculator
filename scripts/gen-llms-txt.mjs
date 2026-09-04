@@ -48,7 +48,7 @@ if (existsSync(blogDir)) {
   for (const file of readdirSync(blogDir).filter((f) => f.endsWith('.md'))) {
     const raw = readFileSync(join(blogDir, file), 'utf8');
     const { data } = parseFrontmatter(raw);
-    if (data.draft === true || data.published === false) continue;
+    if (data.draft === true || data.published === false || data.noindex === true) continue;
     const slug = file.replace(/\.md$/, '');
     if (slug === 'test-post' || slug === 'test-article') continue;
     const title = String(data.title || slug).trim();
