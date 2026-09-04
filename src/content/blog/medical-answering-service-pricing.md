@@ -16,6 +16,7 @@ imageAlt: "Medical answering service pricing: what HIPAA adds: medical answering
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks: []
 ---
 

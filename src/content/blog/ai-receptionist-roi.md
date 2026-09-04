@@ -16,6 +16,7 @@ imageAlt: "AI Receptionist ROI: The Value of Fewer Missed Calls: ai receptionist
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks: []
 ---
 

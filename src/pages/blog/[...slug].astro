@@ -86,6 +86,7 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqStructuredData ? [faqSt
   ogImageWidth={entry.data.imageWidth}
   ogImageHeight={entry.data.imageHeight}
   schema={schemas}
+  noindex={entry.data.noindex === true}
 >
   <Header />
   <article class="pt-24 pb-8 md:pt-28 md:pb-12 max-w-[65ch] mx-auto px-4">

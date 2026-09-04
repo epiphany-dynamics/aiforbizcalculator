@@ -15,6 +15,7 @@ imageAlt: "How Much Do Answering Services Charge? Pricing and Break-Even: how mu
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks: []
 ---
 

@@ -16,6 +16,7 @@ imageAlt: "AI receptionist cost: what the three pricing models charge: ai recept
 imageWidth: 1536
 imageHeight: 1024
 draft: false
+noindex: true
 networkLinks: []
 ---
 
