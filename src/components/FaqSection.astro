@@ -1,0 +1,19 @@
+---
+import { pageFAQItems } from '../lib/page-faq';
+---
+
+<section class="faq-section" style="background: var(--color-bg-surface); border-top: 1px solid var(--color-border-default);">
+  <div class="container-wide" style="padding: 64px 20px;">
+    <h2 style="text-align: center; font-size: 1.5rem; margin-bottom: 28px;">
+      Frequently Asked Questions
+    </h2>
+    <div class="max-w-3xl mx-auto">
+      {pageFAQItems.map((item) => (
+        <details style="border-bottom: 1px solid var(--color-border-default); padding: 16px 4px;">
+          <summary style="font-weight: 600; cursor: pointer; font-size: 1.02rem;">{item.question}</summary>
+          <p style="margin-top: 12px; line-height: 1.6; color: var(--color-text-secondary);" set:html={item.answer} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
