@@ -2,9 +2,13 @@
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Calculator from '../components/Calculator.tsx';
+import FaqSection from '../components/FaqSection.astro';
+import { buildPageFAQSchema } from '../lib/page-faq';
 ---
 
-<Base title="AI Automation Calculator | Free Business Calculator">
+<Base title="AI Automation Calculator | Free Business Calculator" schema={buildPageFAQSchema()}>
   <Header />
   <Calculator client:load />
+
+  <FaqSection />
 </Base>
