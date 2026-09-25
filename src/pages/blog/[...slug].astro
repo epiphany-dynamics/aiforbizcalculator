@@ -15,7 +15,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
+const editorial = entry.data.editorial;
+const sections = editorial ? headings.filter(({ depth }) => depth === 2) : [];
 
 const formattedDate = entry.data.pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
@@ -111,9 +113,55 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqStructuredData ? [faqSt
       )}
     </header>
 
-    <div class="prose mx-auto">
+    {editorial && (
+      <>
+        <section class="editorial-takeaways" aria-labelledby="takeaways-heading">
+          <p class="editorial-eyebrow">The quick read</p>
+          <h2 id="takeaways-heading">Key takeaways</h2>
+          <ol>
+            {editorial.takeaways.map((takeaway, index) => (
+              <li><span aria-hidden="true">0{index + 1}</span><p>{takeaway}</p></li>
+            ))}
+          </ol>
+        </section>
+        {sections.length > 0 && (
+          <nav class="editorial-contents" aria-label="Article contents">
+            <h2>In this article</h2>
+            <ol>
+              {sections.map(({ slug, text }) => (
+                <li><a href={`#${slug}`}>{text}</a></li>
+              ))}
+            </ol>
+          </nav>
+        )}
+        {editorial.stats && editorial.stats.length > 0 && (
+          <section class="editorial-stats" aria-labelledby="stats-heading">
+            <h2 id="stats-heading">Figures at a glance</h2>
+            <div class="editorial-stat-grid">
+              {editorial.stats.map((stat) => (
+                <div class="editorial-stat">
+                  <strong>{stat.value}</strong>
+                  <p>{stat.label}</p>
+                  <span>Source: <a href={stat.sourceUrl}>{stat.sourceName}</a> ({stat.sourceDate})</span>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+      </>
+    )}
+
+    <div class:list={['prose', 'mx-auto', { 'editorial-prose': !!editorial }]}>
       <Content />
     </div>
+
+    {editorial?.methodology && (
+      <section class="editorial-methodology" aria-labelledby="methodology-heading">
+        <h2 id="methodology-heading">Sources and methodology</h2>
+        <p>{editorial.methodology}</p>
+        {editorial.verifiedAt && <p class="editorial-verified">Sources verified {editorial.verifiedAt}.</p>}
+      </section>
+    )}
 
     <NetworkLinks links={entry.data.networkLinks} />
   </article>
