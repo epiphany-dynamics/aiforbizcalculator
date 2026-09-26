@@ -513,6 +513,178 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* The article is a wide editorial page; only running text keeps a reading measure. */
+.blog-article {
+  width: min(100% - 2rem, 1160px);
+  margin-inline: auto;
+  padding-block: clamp(6rem, 9vw, 8rem) 4rem;
+}
+
+.blog-article-header {
+  padding-bottom: clamp(1.75rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--color-border-strong);
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.blog-article-header h1 {
+  max-width: 22ch;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.blog-article-deck {
+  max-width: 72ch;
+  margin-block: 1.5rem 1.25rem;
+  color: var(--color-text-secondary);
+  font-size: clamp(1.1rem, 1.7vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.blog-article-hero {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.blog-article-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+.blog-article-guide {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+  padding-block: 1.75rem;
+  border-bottom: 1px solid var(--color-border-strong);
+  margin-bottom: clamp(2.25rem, 5vw, 4rem);
+}
+
+.blog-article-guide > * { min-width: 0; margin: 0; }
+.blog-article-guide:not(:has(.editorial-takeaways)) { display: block; }
+.blog-article-guide:not(:has(.editorial-takeaways)) .editorial-contents ol {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.blog-article-guide h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+}
+
+.blog-article-guide .editorial-takeaways ol {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-article-guide .editorial-takeaways li {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: baseline;
+  padding: .85rem 0;
+  border: 0;
+  border-top: 1px solid var(--color-border-default);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.blog-article-guide .editorial-takeaways li span {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: .85rem;
+}
+
+.blog-article-guide .editorial-contents {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.blog-article-guide .editorial-contents ol {
+  display: block;
+  padding-left: 1.25rem;
+}
+
+.blog-article-guide .editorial-contents li {
+  margin-bottom: .5rem;
+  line-height: 1.4;
+}
+
+.blog-article-prose {
+  max-width: 72ch;
+  margin-inline: auto;
+  font-size: clamp(1.05rem, 1.2vw, 1.16rem);
+  line-height: 1.8;
+}
+
+.blog-article-prose > p:first-child {
+  color: var(--color-text-primary);
+  font-size: 1.15em;
+  line-height: 1.65;
+}
+
+.blog-article-prose h2 {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border-default);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  text-wrap: balance;
+}
+
+.blog-article-prose h3 { font-size: clamp(1.3rem, 2vw, 1.7rem); }
+
+.blog-article-prose > :is(table, figure, img, p:has(> img)) {
+  position: relative;
+  left: 50%;
+  width: min(1100px, calc(100vw - 2rem));
+  max-width: none;
+  transform: translateX(-50%);
+}
+
+.blog-article-prose > :is(figure, img) { height: auto; border-radius: var(--radius-md); }
+.blog-article-prose > figure img { max-width: 100%; height: auto; }
+.blog-article-prose > p:has(> img) img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+.blog-article-prose > table { font-size: .95rem; }
+
+.blog-article-prose blockquote {
+  padding: 1.5rem 1.75rem;
+  border-left-width: 1px;
+  border-radius: var(--radius-sm);
+}
+
+.blog-article .editorial-stats,
+.blog-article .editorial-methodology {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.blog-article .editorial-stat-grid { gap: 1.25rem; }
+.blog-article .editorial-stat { box-shadow: none; }
+
+@media (max-width: 800px) {
+  .blog-article-guide { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+@media (max-width: 640px) {
+  .blog-article { width: min(100% - 2rem, 1160px); }
+  .blog-article-header h1 { max-width: none; }
+  .blog-article-prose > :is(table, figure, img, p:has(> img)) { width: calc(100vw - 2rem); }
+  .blog-article-guide:not(:has(.editorial-takeaways)) .editorial-contents ol { columns: 1; }
+}
+
 /* ── Scrollbar ──────────────────────────────────────────── */
 
 ::-webkit-scrollbar {
