@@ -8,6 +8,8 @@ This session added optional structured editorial metadata to the blog collection
 
 The blog page now uses a 1160px editorial canvas for the title, hero image, tables, and visual sections. Running text remains limited to 72ch. The compact guide pairs takeaways with contents; older posts get contents navigation too. Figures at a glance follow the article body. Changes are on `codex/2026-09-25-wide-editorial-calc`; generated drafts, deployment, and publication were untouched. `npm run build` passed. Impeccable's static detector reported only warnings in incumbent CSS; no tests were run.
 
+Independent review found that ordinary Markdown images render inside paragraphs. The wide-media style now includes paragraph-wrapped images at desktop and mobile sizes, with proportional inner image sizing. This amendment needs review at its new exact SHA.
+
 ### Archived Codex Resume
 
 2026-09-25: Optional Gravity editorial format is implemented in `agent/2026-09-25-gravity-editorial` from `origin/main` at b10fcd1. The schema, article page and article styles support takeaways, heading navigation and cited data. Existing 58 posts and a temporary synthetic article built successfully; the fixture was removed. Current user directed this work to stay in-session and out of Linear. Await independent exact-SHA review before merge.

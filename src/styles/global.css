@@ -642,7 +642,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-article-prose h3 { font-size: clamp(1.3rem, 2vw, 1.7rem); }
 
-.blog-article-prose > :is(table, figure, img) {
+.blog-article-prose > :is(table, figure, img, p:has(> img)) {
   position: relative;
   left: 50%;
   width: min(1100px, calc(100vw - 2rem));
@@ -652,6 +652,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-article-prose > :is(figure, img) { height: auto; border-radius: var(--radius-md); }
 .blog-article-prose > figure img { max-width: 100%; height: auto; }
+.blog-article-prose > p:has(> img) img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
 .blog-article-prose > table { font-size: .95rem; }
 
 .blog-article-prose blockquote {
@@ -675,7 +681,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 640px) {
   .blog-article { width: min(100% - 2rem, 1160px); }
   .blog-article-header h1 { max-width: none; }
-  .blog-article-prose > :is(table, figure, img) { width: calc(100vw - 2rem); }
+  .blog-article-prose > :is(table, figure, img, p:has(> img)) { width: calc(100vw - 2rem); }
   .blog-article-guide:not(:has(.editorial-takeaways)) .editorial-contents ol { columns: 1; }
 }
 
