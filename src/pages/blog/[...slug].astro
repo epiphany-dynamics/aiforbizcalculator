@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const editorial = entry.data.editorial;
-const sections = editorial ? headings.filter(({ depth }) => depth === 2) : [];
+const sections = headings.filter(({ depth }) => depth === 2);
 
 const formattedDate = entry.data.pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
@@ -91,39 +91,41 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqStructuredData ? [faqSt
   noindex={entry.data.noindex === true}
 >
   <Header />
-  <article class="pt-24 pb-8 md:pt-28 md:pb-12 max-w-[65ch] mx-auto px-4">
-    <header class="mb-8 md:mb-12 border-b border-border pb-8">
-      <h1 class="text-3xl md:text-5xl leading-tight mb-4">{entry.data.title}</h1>
+  <article class="blog-article">
+    <header class="blog-article-header">
+      <h1>{entry.data.title}</h1>
+      <p class="blog-article-deck">{entry.data.description}</p>
       <div class="flex flex-wrap items-center gap-4 text-sm text-muted">
         <time datetime={entry.data.pubDate.toISOString()}>{formattedDate}</time>
         <span>by Patrick Gibbs</span>
         {formattedUpdated && <span>Updated {formattedUpdated}</span>}
       </div>
       {entry.data.image && (
-        <figure class="mt-6">
+        <figure class="blog-article-hero">
           <img
             src={entry.data.image}
             alt={entry.data.imageAlt ?? entry.data.title}
             width={entry.data.imageWidth}
             height={entry.data.imageHeight}
-            class="w-full rounded-xl"
+            class="w-full"
             loading="eager"
           />
         </figure>
       )}
     </header>
 
-    {editorial && (
-      <>
-        <section class="editorial-takeaways" aria-labelledby="takeaways-heading">
-          <p class="editorial-eyebrow">The quick read</p>
-          <h2 id="takeaways-heading">Key takeaways</h2>
-          <ol>
-            {editorial.takeaways.map((takeaway, index) => (
-              <li><span aria-hidden="true">0{index + 1}</span><p>{takeaway}</p></li>
-            ))}
-          </ol>
-        </section>
+    {(editorial || sections.length > 0) && (
+      <div class="blog-article-guide">
+        {editorial && (
+          <section class="editorial-takeaways" aria-labelledby="takeaways-heading">
+            <h2 id="takeaways-heading">Key takeaways</h2>
+            <ol>
+              {editorial.takeaways.map((takeaway, index) => (
+                <li><span aria-hidden="true">0{index + 1}</span><p>{takeaway}</p></li>
+              ))}
+            </ol>
+          </section>
+        )}
         {sections.length > 0 && (
           <nav class="editorial-contents" aria-label="Article contents">
             <h2>In this article</h2>
@@ -134,26 +136,27 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqStructuredData ? [faqSt
             </ol>
           </nav>
         )}
-        {editorial.stats && editorial.stats.length > 0 && (
-          <section class="editorial-stats" aria-labelledby="stats-heading">
-            <h2 id="stats-heading">Figures at a glance</h2>
-            <div class="editorial-stat-grid">
-              {editorial.stats.map((stat) => (
-                <div class="editorial-stat">
-                  <strong>{stat.value}</strong>
-                  <p>{stat.label}</p>
-                  <span>Source: <a href={stat.sourceUrl}>{stat.sourceName}</a> ({stat.sourceDate})</span>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-      </>
+      </div>
     )}
 
-    <div class:list={['prose', 'mx-auto', { 'editorial-prose': !!editorial }]}>
+    <div class="prose blog-article-prose editorial-prose">
       <Content />
     </div>
+
+    {editorial?.stats && editorial.stats.length > 0 && (
+      <section class="editorial-stats" aria-labelledby="stats-heading">
+        <h2 id="stats-heading">Figures at a glance</h2>
+        <div class="editorial-stat-grid">
+          {editorial.stats.map((stat) => (
+            <div class="editorial-stat">
+              <strong>{stat.value}</strong>
+              <p>{stat.label}</p>
+              <span>Source: <a href={stat.sourceUrl}>{stat.sourceName}</a> ({stat.sourceDate})</span>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     {editorial?.methodology && (
       <section class="editorial-methodology" aria-labelledby="methodology-heading">
