@@ -13,3 +13,11 @@ Independent review found that ordinary Markdown images render inside paragraphs.
 ### Archived Codex Resume
 
 2026-09-25: Optional Gravity editorial format is implemented in `agent/2026-09-25-gravity-editorial` from `origin/main` at b10fcd1. The schema, article page and article styles support takeaways, heading navigation and cited data. Existing 58 posts and a temporary synthetic article built successfully; the fixture was removed. Current user directed this work to stay in-session and out of Linear. Await independent exact-SHA review before merge.
+
+### Archived Codex Resume from September 25 wide layout
+
+2026-09-25: The article template and CSS are widened in `codex/2026-09-25-wide-editorial-calc` from `origin/main` at 3554081. The 1160px canvas applies to all posts while paragraphs retain a 72ch measure; the Astro build passed. Source changes are not deployed or published. Existing Gravity draft files in the runtime checkout were untouched. Independent exact-SHA review is next. Patrick directed this work to stay in-session and out of Linear.
+
+## 2026-09-29 — Gravity article presentation
+
+Blog posts dated August 1, 2026 or later now use wide prose within a 1536px article canvas and a sticky right reading guide drawn from rendered H2 anchors. The guide is inside the article-body grid, so it ends before figures, methodology, network links, and footer. Earlier posts retain their prior presentation; existing takeaways, schema, metadata, and calculator navigation remain. `npm run build` passed with 71 pages. Local browser inspection at 1280px and 390px confirmed the guide's position and no horizontal overflow. No drafts were published. The branch awaits independent exact-SHA review and release.

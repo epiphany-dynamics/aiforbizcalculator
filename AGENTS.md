@@ -2,6 +2,8 @@
 
 The shared rules in `/Users/epiphanydynamics/epiphany/AGENTS.md` apply. This repository publishes the AI for Biz Calculator site from `main`. Work in a session-owned worktree, preserve existing posts and the calculator call to action, and verify blog changes with a local build before review. Do not deploy from a task worktree without Patrick's explicit approval.
 
+For the 2026-09-29 Gravity article format task, preserve queued drafts, apply the wider layout only from 2026-08-01, and bound the guide to the article body. Patrick requested in-session work without a Linear issue.
+
 ## Codex Resume
 
-2026-09-25: The article template and CSS are widened in `codex/2026-09-25-wide-editorial-calc` from `origin/main` at 3554081. The 1160px canvas applies to all posts while paragraphs retain a 72ch measure; the Astro build passed. Source changes are not deployed or published. Existing Gravity draft files in the runtime checkout were untouched. Independent exact-SHA review is next. Patrick directed this work to stay in-session and out of Linear.
+2026-09-29: The blog article page on `codex/2026-09-29-gravity-article-format` applies wide article prose and a body-bounded reading guide to posts dated 2026-08-01 onward. Older posts keep their prior template. Build and desktop/mobile visual checks passed; exact-SHA review and release remain. The previous resume is archived verbatim in `CLAUDE.md`.
