@@ -1,6 +1,6 @@
 ---
 title: "Customer Retention Cost Formula: Cost per Retained Customer"
-description: "The customer retention cost formula: add retention spending, divide by customers retained, get cost per retained customer. Worked examples and budget math."
+description: "Calculate cost per retained customer: divide retention spending by ending customers minus new customers for the same period. See a worked example and limits."
 seoTitle: "Customer Retention Cost Formula: Cost per Retained Customer"
 focusKeyword: customer retention cost formula
 tags:
@@ -118,6 +118,10 @@ Three specific traps:
 When not to use this metric at all: businesses under a year old with a small customer base, and one-time-purchase models where repeat buying is rare. In both cases the denominator is too small or too meaningless to steer spending.
 
 ## Frequently Asked Questions
+
+### How should cost per retained customer be calculated?
+
+Divide total retention spending by the number of customers retained in the same period: retention spend / (ending customers - new customers). Allocate shared costs consistently and exclude acquisition spending. If the retained-customer count is zero or negative, do not report a cost per retained customer; check the customer counts and period first. This is an average cost, not proof that the spending caused those customers to stay.
 
 ### What is a good cost per retained customer?
 
