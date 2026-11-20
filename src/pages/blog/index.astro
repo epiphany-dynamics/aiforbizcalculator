@@ -16,6 +16,9 @@ const allPosts = (await getCollection('blog', ({ data }) => !data.draft && !data
       <p class="text-muted text-base md:text-lg leading-relaxed">
         Practical guides on AI automation ROI, calculator walkthroughs, and tips for small business owners.
       </p>
+      <p class="mt-4">
+        <a href="/calculator/" class="btn-primary">Run the free AI for Biz calculator</a>
+      </p>
     </div>
 
     {allPosts.length > 0 ? (
